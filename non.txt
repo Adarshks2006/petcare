@@ -1,0 +1,125 @@
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #d0f0ff, #f9ccff);
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 10%;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2c7a7b;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00bcd4;
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 10%;
+    }
+
+    .text-section {
+      max-width: 50%;
+    }
+
+    .text-section h1 {
+      font-size: 48px;
+      font-family: 'Fredoka One', cursive;
+      line-height: 1.2;
+    }
+
+    .highlight1 {
+      color: #00bcd4;
+    }
+
+    .highlight2 {
+      color: #3d3d3d;
+    }
+
+    .text-section p {
+      margin: 20px 0;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons button {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      margin-right: 15px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .service-btn {
+      background-color: #d81b60;
+      color: white;
+    }
+
+    .call-btn {
+      background-color:#d81b60;
+      color: white;
+      border: 2px solid #d81b60;
+    }
+
+    .call-btn:hover {
+      background-color: #d81b60;
+      color: white;
+    }
+
+    .dog-image img {
+      max-width: 400px;
+      height: auto;
+    }
+  </style>
+</head>
+
+
+
+<div class="girl-image">
+      <img src="full-shot-woman-with-dog-studio 2.png" alt="girl">
+    </div>
+    <h2>About our pet journey</h2>
+    <p>petCare is Delhi's premier pet service provider, offering grooming, training, and veterinary care. With a team of passionate professionals and years of expertise, we prioritize the well-being of your pets. Trust us to deliver exceptional care tailored to meet the unique needs of your furry companions</p>
+     
